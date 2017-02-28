@@ -1,0 +1,31 @@
+HTML= estructura + contenido
+HTML+DISEñO = CSS3
+CSS= HOJAS DE ESTILO EN CASCADA
+	= MAQUETADO = MAQUETACIÓN
+
+	Con css el diseño y la estructura se separan para que el diseño sea reusable
+
+EN CSS. Va el orden de elementos sig: 
+	1.- Pseudo-elementos
+		Contiene atributos
+
+	2.- Etiquetas <etiqueta>
+		Contiene atributos
+
+	3.- Identificadores
+		Contiene atributos
+
+	4.- Clases
+		Contiene atributos
+
+	5.- Elemento de responsive design (diseño adaptativo)
+		Contiene atributos
+		Significa que debe adaptarse al entorno, tanto en macs, windows y esas cositas ;)
+
+Todos en orden alfabético, tanto elementos como atributos.
+body{
+	backgrounf: color. puede ser el nombre del col en ingles. o #RGB(ej. #55(r)55(g)55(b)), rgb (0-255,0-255,0-255), rgba donde A es alpha(transparencia) Ej. rgba(0, 0, 0 ,0)
+	atributo:valor;
+	font-size: 16px;
+	Tomamos como base 16 pix porque cosas cosas y que no se vea feito gg
+}
