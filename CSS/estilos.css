@@ -1,7 +1,38 @@
 body{
-	background: hotpink;
+	/*Body o modelo de caja tiene dos tipos de margenes. 
+	Los internos (de caja) y externos entre caja y caja.
+	Internos son padding y externos son margin
+	Padding y margin funcionan igual
+	Padding: arriba derecha abajo izquierda
+	Padding : 5px;     Todos los bordes 5px
+	Padding: 5px 10px;	arr/ab=5px der/izq=10px
+	Padding: 5px 10px 2px 8px; todos los lados en orden anterior	
+	El agregar cajas, todo lo mete en una caja y agarra todo el espacio de la pantalla*/
+	background: #FFFFFF;
 	border: 1px solid red;
-	color: white;
+	color: black;
 	font-size: 16px;
+	margin: 0px auto;
 	max-width: 1024px;
+}
+header{
+	border: 1px solid blue;
+	text-align: center;
+}
+header img{
+	/*El alto se autoajusta en proporcion a la imagen cambiando sólo el ancho*/
+	float: right;
+	margin: -70px 20px 0px 0px;
+	width: 90px;
+
+}
+header nav ul li{
+	/*border: 1px solid tomato;*/
+	background: blue;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 0px 10px 0px 0px;
+	width: 84px;
+	border-radius: 30px; 
 }
