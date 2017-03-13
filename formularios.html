@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+Fornulario: contenedor que sirve para encapsular métodos de entrada de datos del usuario. <br>
+Con el formulario se puede: <br>
+<ol>
+	<li>Capturar datos</li>
+	<li>Validar lo que se ingresa</li>
+	<li>Enviar a proceso</li>
+	<li>Reiniciar la captura</li>
+</ol>
+<form action="procesa.html" method="post" <!-- "get" --> >
+	<!-- <input type="text" name="nombre" placeholder="Nombre" title="Nombre de la persona" pattern="[A-Z]{4}[0-9]{6}[a-z]{2}[0-9]{1}" required> -->
+	<input type="text" name="nControl" placeholder="Numero de control" title="Numero de control" required>
+	<input type="number" name="promedio" placeholder="Promedio" title="Promedio hasta el semestre anterior" required>
+	<input type="password" name="clave" placeholder="Ingresa contraseña" required>
+	<input type="submit" value="Enviar">
+	<input type="reset" value="Borrar datos">
+
+	<input type="color" name="">
+	<input type="email" name="">
+	<input type="date" name="">
+	<input type="search" name="">
+
+</form>
+</body>
+</html>
