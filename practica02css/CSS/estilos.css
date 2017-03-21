@@ -1,0 +1,60 @@
+body{
+	font-size: 16px; /*1em*/
+	margin:0 auto; /*centramos el body*/
+	max-width: 1078px;
+	min-width: 1078px;
+}
+header nav{
+	/*border: 1px solid tomato;*/
+	margin-left: 220px;
+	/*text-align: center;*/
+}
+header nav ul{
+	margin-bottom: 50px;
+}
+header nav ul li{
+	border-bottom: 1px solid gray; /*dashed*/
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	font-family: sans-serif;
+	margin-right: 15px;
+	/*text-decoration: underline;*/
+}
+header input{
+	float: right;
+	margin-right: -200px;
+	margin-top: 15px;
+	position: relative; /*Va a cumplir 
+			con todo lo que tenga dentro de 
+			la caja agregando automaticamente 
+			profundidad. Es el unico de los valores
+			(static, absolute, fixed) que entiende 
+			el Eje Z*/
+	/*static, absolute, fixed*/
+}
+#primerSeccion{
+	height: 318px;
+}
+#primerSeccion article{
+	border: 1px solid red;
+	display: inline-block;
+
+}
+#granthams{
+	/*Logo de la empresa*/
+	margin-top: 20px;
+	margin-left: 25px;
+}
+#paint{
+	float: right;
+}
+#secc01art01{
+	width: 50%;
+}
+#secc01art01 img{
+	width: 100%;
+}
+#secc01art02{
+	width: 20%;
+}
