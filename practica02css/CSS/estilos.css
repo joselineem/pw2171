@@ -3,21 +3,19 @@ body{
 	margin:0 auto; /*centramos el body*/
 	max-width: 1078px;
 	min-width: 1078px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: Thin;
 }
 header nav{
 	/*border: 1px solid tomato;*/
 	margin-left: 220px;
 	/*text-align: center;*/
 }
-header nav ul{
-	margin-bottom: 50px;
-}
 header nav ul li{
 	border-bottom: 1px solid gray; /*dashed*/
 	color: gray;
 	display: inline-block;
 	font-size: 1.8em;
-	font-family: sans-serif;
 	margin-right: 15px;
 	/*text-decoration: underline;*/
 }
@@ -33,11 +31,18 @@ header input{
 			el Eje Z*/
 	/*static, absolute, fixed*/
 }
+#bgoffer{
+	/*z, left, top, right, bottom: */
+	position: relative;
+	top: -410px;
+	left: -40px;
+}
 #primerSeccion{
 	height: 318px;
+	margin-top: 60px;
 }
 #primerSeccion article{
-	border: 1px solid red;
+	vertical-align: top;
 	display: inline-block;
 
 }
@@ -50,11 +55,58 @@ header input{
 	float: right;
 }
 #secc01art01{
-	width: 50%;
+	margin-left: 30px;
+	width: 60%;
 }
 #secc01art01 img{
-	width: 100%;
+	/*
+	width: 100%;*/
 }
 #secc01art02{
-	width: 20%;
+	margin-left: 50px;
+	width: 30%;
+	
+}
+#secc01art02 ul{
+	list-style: none;
+}
+#secc01art02 ul li:before {
+	content: "• ";
+	color: #FF0099;
+}
+#segundaSeccion article{
+	text-align: right;
+	padding-right: 150px;
+}
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 22%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+.colorRosa{
+	color: #F4A3C6;
+}
+.colorVerde{
+	color: #A6DE47;
+}
+.colorAzul{
+	color: #16BEF8;
+}
+.colorAzul, .colorVerde, .colorRosa{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.numTel{
+	color: #FF0099;
+	font-size: 2em;
+	font-weight: bold;
+	
+}
+.wecanoffer{
+	color: #FF0099;
+	font-size: 3.5em;
+	font-weight: bold;
 }
