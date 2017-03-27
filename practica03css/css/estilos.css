@@ -17,17 +17,38 @@ header nav ul li{
 	margin-left: 15px;
 	
 }
-section{
+body section article{
 	display: inline-block;
-	border: 1px tomato;
+	border: 1px solid tomato;
+	vertical-align: top;
 }
-
+#admin{
+	border-radius: 30px;
+	text-shadow: 
+	background: #FAFAFA;
+}
+#art01{
+	width: 60%;
+}
+#art0102 img{
+	border: 10px solid gray;
+	/*vertical-align: middle;*/
+	float: left;
+}
+#art02{
+	width: 30%;
+}
 #miThema{
 	font-size: 2em;
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black,
 	  1px 0 black, 0 -1px black;
 
+}
+#post{
+	font-size: 25px;
+	font-weight: bold;
+	color: gray;
 }
 .backNaranja{
 	background: orange;
