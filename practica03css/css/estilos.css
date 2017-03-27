@@ -1,10 +1,42 @@
 body{
 	font-size: 16px;
 	margin:0 auto;
+	max-width: 1078px;
+	min-width: 1078px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: Thin;
 }
+header nav{
+}
+header nav ul{
+	
+}
+header nav ul li{
+	text-decoration: none ;	
+	display: inline-block;
+	margin-left: 15px;
+	
+}
+section{
+	display: inline-block;
+	border: 1px tomato;
+}
+
 #miThema{
 	font-size: 2em;
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black,
 	  1px 0 black, 0 -1px black;
+
+}
+.backNaranja{
+	background: orange;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	color: white;
+}
+.social{
+	position: relative;
+	top: -35px;
+	left: 950px;
 }
