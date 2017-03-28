@@ -10,6 +10,10 @@ body section article{
 	display: inline-block;
 	/*border: 1px solid tomato;*/
 	vertical-align: top;
+
+}
+header nav ul{
+
 }
 
 header nav ul li{
@@ -24,10 +28,10 @@ header nav ul li{
 	box-shadow: 2px 2px gray;
 	background: #FAFAFA;
 	padding: 10px 160px 10px 10px;
-	margin: 10px 0px 10px 10px;
+	margin: 10px 0px 10px 0px;
 }
 #art01{
-	width: 60%;
+	width: 65%;
 }
 #art0102{
 	padding-bottom: 15px;
@@ -36,12 +40,14 @@ header nav ul li{
 #art0102 img{
 	border: 10px solid gray;
 	/*vertical-align: middle;*/
+	margin-right: 15px;
 	float: left;
 }
 
 #art02{
 	width: 30%;
 	display: inline-grid;
+	margin-left: 30px;
 }
 #art02 span{
 	padding: 5px 120px 5px 120px;
@@ -79,7 +85,6 @@ header nav ul li{
 	border-radius: 10px;
 	color:white;
 	padding: 10px 5px 10px 5px;
-	margin-left: 10px;
 	font-style: italic;
 }
 #miThema{
@@ -98,7 +103,7 @@ header nav ul li{
 	color: gray;
 }
 .backNaranja{
-	background: orange;
+	background: #F6661D;
 	border-radius: 5px;
 	padding: 5px 5px 5px 5px;
 	color: white;
