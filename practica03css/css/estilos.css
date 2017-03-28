@@ -3,40 +3,84 @@ body{
 	margin:0 auto;
 	max-width: 1078px;
 	min-width: 1078px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: Thin;
 }
-header nav{
+body section article{
+	display: inline-block;
+	/*border: 1px solid tomato;*/
+	vertical-align: top;
 }
-header nav ul{
-	
-}
+
 header nav ul li{
 	text-decoration: none ;	
 	display: inline-block;
 	margin-left: 15px;
 	
 }
-body section article{
-	display: inline-block;
-	border: 1px solid tomato;
-	vertical-align: top;
-}
+
 #admin{
-	border-radius: 30px;
-	text-shadow: 
+	border-radius: 10px;
+	box-shadow: 2px 2px gray;
 	background: #FAFAFA;
+	padding: 10px 160px 10px 10px;
+	margin: 10px 0px 10px 10px;
 }
 #art01{
 	width: 60%;
+}
+#art0102{
+	padding-bottom: 15px;
+	border-bottom: 1px solid gray;
 }
 #art0102 img{
 	border: 10px solid gray;
 	/*vertical-align: middle;*/
 	float: left;
 }
+
 #art02{
 	width: 30%;
+	display: inline-grid;
+}
+#art02 span{
+	padding: 5px 120px 5px 120px;
+}
+#art02 article{
+	margin: 0px auto;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	text-align:  center;
+
+}
+#art0201{
+	padding-top: 15px;
+}
+#art0202 input{
+	border-radius: 50px;
+}
+#art0203 ul li{
+	text-align: left;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-right: 40px;
+	border-bottom: 1px dashed gray;
+}
+#bor{
+	border: 1px solid gray;
+	margin-left: 45px;
+	margin-right: 45px;
+	border-radius: 50px;
+	padding: 2px 0px 2px 0px;
+}
+#leer{
+	background: gray;
+	border-radius: 10px;
+	color:white;
+	padding: 10px 5px 10px 5px;
+	margin-left: 10px;
+	font-style: italic;
 }
 #miThema{
 	font-size: 2em;
@@ -45,6 +89,9 @@ body section article{
 	  1px 0 black, 0 -1px black;
 
 }
+/*#parrafo{
+	margin-left: 10px;
+}*/
 #post{
 	font-size: 25px;
 	font-weight: bold;
@@ -55,6 +102,10 @@ body section article{
 	border-radius: 5px;
 	padding: 5px 5px 5px 5px;
 	color: white;
+}
+.curs{
+	color: gray;
+	font-style: italic;
 }
 .social{
 	position: relative;
