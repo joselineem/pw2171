@@ -1,0 +1,42 @@
+body{
+	
+	color: white;
+	background: #265D8E;
+	font-size: 16px; /*1em*/
+	margin: 0 auto; 
+	max-width: 1024px;
+	min-height: 1024px;
+}
+body section{
+	vertical-align: top;
+	border: 1px solid red;
+	display: inline-block;
+}
+header{
+	text-align: center;
+}
+header nav{
+	 text-align: right;
+	 padding: 13px 13px;
+}
+header img{
+	width: 20%;
+}
+#img1{
+	width: 12%;
+}
+#img2{
+	width: 10%;
+}
+#img3{
+	width: 8%;
+}
+#fondoGris{
+	background: #ECECEE;
+}
+#secc01{
+	width: 30%;
+}
+#secc02{
+	width: 60%;
+}
