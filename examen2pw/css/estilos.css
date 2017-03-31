@@ -1,0 +1,95 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-height: 1024px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+}
+body section{
+	border-top: 1px dashed darkgray;
+	vertical-align: top;
+	/*border: 1px solid red;*/
+	display: inline-block;
+}
+header{
+	margin-bottom: -50px;
+}
+header nav{
+	margin-top: 50px;
+}
+header nav ul li{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+footer{
+	color:darkgray;
+	font-size: 13px;
+	font-family: 'Lora', serif;
+}
+footer img{
+	width: 2%;
+}
+footer ul{
+	list-style: none;
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+
+}
+footer ul h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	padding-bottom: 10px;
+	border-bottom: 1px solid darkgray;
+}
+#first_bike{
+	margin: 20px 0px 0px 15px;
+}
+#buy{
+	position: relative;
+	left: 600px;
+	top: -80px;
+}
+#go_to_shop{
+	position: relative;
+	left: 600px;
+	top: -120px;
+}
+#balance{
+	font-size: 4em;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+}
+#texto{
+	color: darkgray;
+	font-weight: lighter;
+	border-top: 1px dashed darkgray;
+	padding-top: 30px;
+}
+#green{
+	color: lightgreen;
+}
+#bike{
+	width: 97%;
+}
+#years{
+	width: 30%;
+}
+#secc01{
+	width: 60%;
+}
+#secc02{
+	width: 39%;
+}
+#secc01 img{
+	width: 49%;
+}
+.mundo{
+	width: 4%;
+	margin: 15px 5px 15px 5px;
+	float: right;
+}
