@@ -12,7 +12,6 @@ body section{
 #sec01{
 	vertical-align: top;
 	float: left;
-	width: 20%;
 	background: blue;
 }
 #txtNombre{
