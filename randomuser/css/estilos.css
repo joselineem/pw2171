@@ -6,6 +6,15 @@ img{
 	border-radius: 200px;
 	width: 200px;
 }
+body section{
+	display: inline-block;
+}
+#sec01{
+	vertical-align: top;
+	float: left;
+	width: 20%;
+	background: blue;
+}
 #txtNombre{
 	font-size: 2em;
 }
